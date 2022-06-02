@@ -13,7 +13,7 @@ public class FaceBookHomePage
    @FindBy (xpath="//a[@href='/watch/?ref=tab']")
    private WebElement watch;
    
-   @FindBy (xpath="//div[@class='j83agx80 l9j0dhe7']")
+   @FindBy (xpath="//div[@aria-label='Account controls and settings']")
    private WebElement introduction;
    
    @FindBy (xpath="//div[@data-nocookies='true']")
@@ -40,17 +40,13 @@ public class FaceBookHomePage
    
    public void clickonIntroduction()
    {    
-	   Actions act = new Actions (driver);
-       act.moveToElement(introduction).perform();
-	  
+	 
 	   introduction.click();
    }
    
    public void clickOnLogout()
    {
-	  
-	   Actions act = new Actions (driver);
-	   act.moveToElement(logout).perform();
+	   
 	   logout.click();
    }
 }

@@ -21,10 +21,12 @@ public class LoginPage
     @FindBy (xpath="//input[@id='keepLoggedInCheckBox']")
     private WebElement keepMeLoginCheckbox ;
     
+   
     
     public LoginPage(WebDriver driver)
     {
     	PageFactory.initElements(driver, this);
+    	
     }
     
     

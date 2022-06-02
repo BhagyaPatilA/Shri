@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.TestClass">
+      <class name="tests.VerifyBhagya">
         <methods>
-          <include name="aftermethod"/>
-          <include name="delta"/>
-          <include name="demo"/>
+          <include name="launchBrowser"/>
+          <include name="logoutfromApplication"/>
+          <include name="verifyYour"/>
+          <include name="logintoApplication"/>
           <include name="afterclass"/>
-          <include name="testD"/>
         </methods>
-      </class> <!-- tests.TestClass -->
+      </class> <!-- tests.VerifyBhagya -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,115 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-01T10:29:08 IST" name="Suite" finished-at="2022-06-01T10:29:11 IST" duration-ms="3127">
+  <suite started-at="2022-06-02T17:33:42 IST" name="Default suite" finished-at="2022-06-02T17:34:27 IST" duration-ms="45300">
     <groups>
     </groups>
-    <test started-at="2022-06-01T10:29:08 IST" name="Test" finished-at="2022-06-01T10:29:11 IST" duration-ms="3127">
-      <class name="tests.TestClass">
-        <test-method is-config="true" signature="demo()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:08 IST" name="demo" finished-at="2022-06-01T10:29:08 IST" duration-ms="10" status="PASS">
+    <test started-at="2022-06-02T17:33:42 IST" name="Default test" finished-at="2022-06-02T17:34:27 IST" duration-ms="45300">
+      <class name="tests.VerifyAnnotations">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.VerifyAnnotations@635eaaf1]" started-at="2022-06-02T17:33:42 IST" name="launchBrowser" finished-at="2022-06-02T17:33:52 IST" duration-ms="10637" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo -->
-        <test-method is-config="true" signature="delta()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:08 IST" name="delta" finished-at="2022-06-01T10:29:08 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginto()[pri:0, instance:tests.VerifyAnnotations@635eaaf1]" started-at="2022-06-02T17:33:52 IST" name="loginto" finished-at="2022-06-02T17:33:58 IST" duration-ms="5674" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delta -->
-        <test-method signature="testA()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:08 IST" name="testA" finished-at="2022-06-01T10:29:08 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- loginto -->
+        <test-method signature="verifyReportTab()[pri:0, instance:tests.VerifyAnnotations@635eaaf1]" started-at="2022-06-02T17:33:58 IST" name="verifyReportTab" finished-at="2022-06-02T17:34:14 IST" duration-ms="15355" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testA -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:08 IST" name="aftermethod" finished-at="2022-06-01T10:29:08 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifyReportTab -->
+        <test-method is-config="true" signature="logoutfromApplication()[pri:0, instance:tests.VerifyAnnotations@635eaaf1]" started-at="2022-06-02T17:34:14 IST" name="logoutfromApplication" finished-at="2022-06-02T17:34:15 IST" duration-ms="1727" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="delta()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:08 IST" name="delta" finished-at="2022-06-01T10:29:08 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- logoutfromApplication -->
+        <test-method is-config="true" signature="loginto()[pri:0, instance:tests.VerifyAnnotations@635eaaf1]" started-at="2022-06-02T17:34:15 IST" name="loginto" finished-at="2022-06-02T17:34:21 IST" duration-ms="5543" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delta -->
-        <test-method signature="testC()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:08 IST" name="testC" finished-at="2022-06-01T10:29:08 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- loginto -->
+        <test-method signature="verifyTaskTab()[pri:0, instance:tests.VerifyAnnotations@635eaaf1]" started-at="2022-06-02T17:34:21 IST" name="verifyTaskTab" finished-at="2022-06-02T17:34:26 IST" duration-ms="4859" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testC -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:08 IST" name="aftermethod" finished-at="2022-06-01T10:29:08 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifyTaskTab -->
+        <test-method is-config="true" signature="logoutfromApplication()[pri:0, instance:tests.VerifyAnnotations@635eaaf1]" started-at="2022-06-02T17:34:26 IST" name="logoutfromApplication" finished-at="2022-06-02T17:34:27 IST" duration-ms="1354" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="delta()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:08 IST" name="delta" finished-at="2022-06-01T10:29:08 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delta -->
-        <test-method signature="testD()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:08 IST" name="testD" finished-at="2022-06-01T10:29:11 IST" duration-ms="3014" status="FAIL">
-          <exception class="org.testng.internal.thread.ThreadTimeoutException">
-            <message>
-              <![CDATA[Method tests.TestClass.testD() didn't finish within the time-out 3000]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.TestClass.testD() didn't finish within the time-out 3000
-at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
-at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testD -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:11 IST" name="aftermethod" finished-at="2022-06-01T10:29:11 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="delta()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:11 IST" name="delta" finished-at="2022-06-01T10:29:11 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delta -->
-        <test-method signature="testE()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:11 IST" name="testE" finished-at="2022-06-01T10:29:11 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testE -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:11 IST" name="aftermethod" finished-at="2022-06-01T10:29:11 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="delta()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:11 IST" name="delta" finished-at="2022-06-01T10:29:11 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delta -->
-        <test-method signature="testB()[pri:1, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:11 IST" name="testB" finished-at="2022-06-01T10:29:11 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testB -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:11 IST" name="aftermethod" finished-at="2022-06-01T10:29:11 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:tests.TestClass@21de60b4]" started-at="2022-06-01T10:29:11 IST" name="afterclass" finished-at="2022-06-01T10:29:11 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- logoutfromApplication -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:tests.VerifyAnnotations@635eaaf1]" started-at="2022-06-02T17:34:27 IST" name="afterclass" finished-at="2022-06-02T17:34:27 IST" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-      </class> <!-- tests.TestClass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- tests.VerifyAnnotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

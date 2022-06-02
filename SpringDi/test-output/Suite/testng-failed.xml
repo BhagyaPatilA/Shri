@@ -3,15 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.TestClass">
+      <class name="tests.VerifyAnnotations">
         <methods>
-          <include name="aftermethod"/>
-          <include name="delta"/>
-          <include name="demo"/>
+          <include name="verifyReportTab"/>
+          <include name="verifyTaskTab"/>
           <include name="afterclass"/>
-          <include name="testD"/>
+          <include name="logoutfromApplication"/>
+          <include name="loginto"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- tests.TestClass -->
+      </class> <!-- tests.VerifyAnnotations -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
