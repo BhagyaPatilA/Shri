@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-20T13:53:42 IST" name="Suite -bhagya" finished-at="2022-05-20T13:53:43 IST" duration-ms="124">
+    <groups>
+    </groups>
+    <test started-at="2022-05-20T13:53:42 IST" name="Test" finished-at="2022-05-20T13:53:43 IST" duration-ms="124">
+      <class name="tests.TestClass">
+        <test-method is-config="true" signature="demo()[pri:0, instance:tests.TestClass@6580cfdd]" started-at="2022-05-20T13:53:42 IST" name="demo" finished-at="2022-05-20T13:53:42 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="delta()[pri:0, instance:tests.TestClass@6580cfdd]" started-at="2022-05-20T13:53:42 IST" name="delta" finished-at="2022-05-20T13:53:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delta -->
+        <test-method signature="testA()[pri:0, instance:tests.TestClass@6580cfdd]" started-at="2022-05-20T13:53:42 IST" name="testA" finished-at="2022-05-20T13:53:43 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tests.TestClass@6580cfdd]" started-at="2022-05-20T13:53:43 IST" name="aftermethod" finished-at="2022-05-20T13:53:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="delta()[pri:0, instance:tests.TestClass@6580cfdd]" started-at="2022-05-20T13:53:43 IST" name="delta" finished-at="2022-05-20T13:53:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delta -->
+        <test-method signature="testB()[pri:0, instance:tests.TestClass@6580cfdd]" started-at="2022-05-20T13:53:43 IST" name="testB" finished-at="2022-05-20T13:53:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tests.TestClass@6580cfdd]" started-at="2022-05-20T13:53:43 IST" name="aftermethod" finished-at="2022-05-20T13:53:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="delta()[pri:0, instance:tests.TestClass@6580cfdd]" started-at="2022-05-20T13:53:43 IST" name="delta" finished-at="2022-05-20T13:53:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delta -->
+        <test-method signature="testC()[pri:0, instance:tests.TestClass@6580cfdd]" started-at="2022-05-20T13:53:43 IST" name="testC" finished-at="2022-05-20T13:53:43 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tests.TestClass@6580cfdd]" started-at="2022-05-20T13:53:43 IST" name="aftermethod" finished-at="2022-05-20T13:53:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:tests.TestClass@6580cfdd]" started-at="2022-05-20T13:53:43 IST" name="afterclass" finished-at="2022-05-20T13:53:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- tests.TestClass -->
+      <class name="tests.TestClass2">
+        <test-method is-config="true" signature="bhagya()[pri:0, instance:tests.TestClass2@30ee2816]" started-at="2022-05-20T13:53:43 IST" name="bhagya" finished-at="2022-05-20T13:53:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bhagya -->
+        <test-method signature="testA()[pri:0, instance:tests.TestClass2@30ee2816]" started-at="2022-05-20T13:53:43 IST" name="testA" finished-at="2022-05-20T13:53:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="patil()[pri:0, instance:tests.TestClass2@30ee2816]" started-at="2022-05-20T13:53:43 IST" name="patil" finished-at="2022-05-20T13:53:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patil -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tests.TestClass2@30ee2816]" started-at="2022-05-20T13:53:43 IST" name="aftermethod" finished-at="2022-05-20T13:53:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="patil()[pri:0, instance:tests.TestClass2@30ee2816]" started-at="2022-05-20T13:53:43 IST" name="patil" finished-at="2022-05-20T13:53:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patil -->
+        <test-method signature="testB()[pri:0, instance:tests.TestClass2@30ee2816]" started-at="2022-05-20T13:53:43 IST" name="testB" finished-at="2022-05-20T13:53:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:tests.TestClass2@30ee2816]" started-at="2022-05-20T13:53:43 IST" name="aftermethod" finished-at="2022-05-20T13:53:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:tests.TestClass2@30ee2816]" started-at="2022-05-20T13:53:43 IST" name="afterclass" finished-at="2022-05-20T13:53:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- tests.TestClass2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -bhagya -->
+</testng-results>

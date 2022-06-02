@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite-Shri" thread-count="2" parallel = "tests">
+  <test name="ChromeBrowser">
+  <parameter name="browser" value="ChromeBrowser"/>
+    <classes>
+      <class name="tests.Verifyapplication"/>
+      <class name="tests.VerifyFac"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="EdgeBrowser">
+  <parameter name="browser" value="EdgeBrowser"/>
+    <classes>
+      <class name="tests.Verifyapplication"/>
+      <class name="tests.VerifyFac"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
+

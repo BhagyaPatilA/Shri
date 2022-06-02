@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite-Durga]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeBrowser(failed)">
+    <parameter name="browser" value="ChromeBrowser"/>
+    <classes>
+      <class name="tests.Verifyapplication">
+        <methods>
+          <include name="verifyReportTab"/>
+          <include name="verifyTaskTab"/>
+          <include name="logintoapplication"/>
+          <include name="closBrowser"/>
+          <include name="logoutfromApplication"/>
+          <include name="clearPOMobjects"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.Verifyapplication -->
+    </classes>
+  </test> <!-- ChromeBrowser(failed) -->
+  <test thread-count="5" name="FirefoxBrowser(failed)">
+    <parameter name="browser" value="FirefoxBrowser"/>
+    <classes>
+      <class name="tests.Verifyapplication">
+        <methods>
+          <include name="verifyReportTab"/>
+          <include name="verifyTaskTab"/>
+          <include name="logintoapplication"/>
+          <include name="closBrowser"/>
+          <include name="logoutfromApplication"/>
+          <include name="clearPOMobjects"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.Verifyapplication -->
+    </classes>
+  </test> <!-- FirefoxBrowser(failed) -->
+</suite> <!-- Failed suite [Suite-Durga] -->

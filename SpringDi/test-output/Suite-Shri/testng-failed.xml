@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite-Shri]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="EdgeBrowser(failed)">
+    <parameter name="browser" value="EdgeBrowser"/>
+    <classes>
+      <class name="tests.VerifyFac">
+        <methods>
+          <include name="verifyWatch"/>
+          <include name="launchBrowser"/>
+          <include name="afterclass"/>
+          <include name="logintoApplication"/>
+        </methods>
+      </class> <!-- tests.VerifyFac -->
+      <class name="tests.Verifyapplication">
+        <methods>
+          <include name="verifyReportTab"/>
+          <include name="verifyTaskTab"/>
+          <include name="logintoapplication"/>
+          <include name="closBrowser"/>
+          <include name="logoutfromApplication"/>
+          <include name="clearPOMobjects"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.Verifyapplication -->
+    </classes>
+  </test> <!-- EdgeBrowser(failed) -->
+  <test thread-count="2" parallel="tests" name="ChromeBrowser(failed)">
+    <parameter name="browser" value="ChromeBrowser"/>
+    <classes>
+      <class name="tests.VerifyFac">
+        <methods>
+          <include name="verifyWatch"/>
+          <include name="launchBrowser"/>
+          <include name="afterclass"/>
+          <include name="logintoApplication"/>
+        </methods>
+      </class> <!-- tests.VerifyFac -->
+      <class name="tests.Verifyapplication">
+        <methods>
+          <include name="verifyReportTab"/>
+          <include name="verifyTaskTab"/>
+          <include name="logintoapplication"/>
+          <include name="closBrowser"/>
+          <include name="logoutfromApplication"/>
+          <include name="clearPOMobjects"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.Verifyapplication -->
+    </classes>
+  </test> <!-- ChromeBrowser(failed) -->
+</suite> <!-- Failed suite [Suite-Shri] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite -bhagya]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.TestClass">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="delta"/>
+          <include name="testA"/>
+          <include name="demo"/>
+          <include name="afterclass"/>
+          <include name="testC"/>
+        </methods>
+      </class> <!-- tests.TestClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite -bhagya] -->
